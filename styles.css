@@ -687,6 +687,10 @@ a:focus-visible, button:focus-visible {
 .about-lede { margin: 1.2rem 0 0; color: var(--muted); font-size: clamp(1.05rem,1.5vw,1.45rem); line-height: 1.5; letter-spacing: -.035em; }
 .about-copy { max-width: 780px; margin-left: 0; }
 .about-copy>p { margin: 0 0 1.25rem; color: #454540; font-size: clamp(1rem,1rem + .25vw,1.15rem); line-height: 1.8; letter-spacing: -.018em; }
+.about-tools { margin-top: 2rem; }
+.about-tools h2 { margin: 0 0 .85rem; font: 500 10px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.about-tools ul { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0; padding: 0; list-style: none; }
+.about-tools li { padding: .55rem .8rem; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); font-size: .9rem; line-height: 1; }
 .about-signoff { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
 .about-signoff>span { color: var(--muted); font: 10px var(--mono); }
 .about-signature { margin: .25rem 0 0; color: var(--ink); font: 600 clamp(2.4rem,5vw,4rem)/1.1 "Caveat", cursive; letter-spacing: -.035em; transform: rotate(-3deg); transform-origin: left center; }
