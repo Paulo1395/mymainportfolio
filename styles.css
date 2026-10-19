@@ -549,6 +549,8 @@ a:focus-visible, button:focus-visible {
 .case-facts span { color: var(--muted); font: var(--type-xs) var(--mono); }
 .case-facts p { margin: .55rem 0 0; font-size: var(--type-base); line-height: 1.45; }
 .case-copy-grid { display: grid; grid-template-columns: minmax(150px, .65fr) minmax(0, 1.35fr); gap: 2rem; padding: clamp(3.5rem, 7vw, 6rem) 0; border-bottom: 1px solid var(--line); }
+.case-copy-grid.case-copy-wide { grid-template-columns: minmax(0,1fr); }
+.case-copy-grid.case-copy-wide .case-copy { grid-column: 1 / -1; }
 .case-copy-grid>.section-kicker { padding-top: .65rem; }
 .case-copy { width: 100%; max-width: none; }
 .case-copy h2, .case-showcase h2 { margin: 0; max-width: 780px; font-size: clamp(2rem, 4.8vw, 4.6rem); line-height: 1.06; letter-spacing: -.075em; font-weight: 600; text-wrap: balance; }
